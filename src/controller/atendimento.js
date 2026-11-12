@@ -15,7 +15,7 @@ class ControllerAtendimento {
     BuscarUm(req, res) {
         try {
             const id = req.params.id
-            const hora = ServiceAtendimento.BuscarUm(id)
+            const hora = ServiceAtendimento.FindByPk(id)
 
             res.send({ hora })
         } catch (error) {
@@ -67,7 +67,7 @@ class ControllerAtendimento {
             const id = req.params.id
             ServiceAtendimento.AlterarConcluido(id)
 
-            res.send({ message: "Alterado conclusão !" })
+            res.send({ message: "Alterado conclussão !" })
         } catch (e) {
             res.send({ message: e.message })
         }

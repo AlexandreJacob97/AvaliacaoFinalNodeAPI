@@ -18,9 +18,7 @@ class Atendimento {
                 type: database.db.Sequelize.INTEGER
             },
             concluido: {
-                type: database.db.Sequelize.BOOLEAN,
-                statement: false
-                
+                type: database.db.Sequelize.BOOLEAN
             }
         })
     }

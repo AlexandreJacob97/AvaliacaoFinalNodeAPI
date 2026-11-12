@@ -8,10 +8,10 @@ class Database {
     init() {
         this.db = new Sequelize({
             dialect: 'postgres',
-            database: 'avaliacaofinalnodeapi',
-            username: 'avaliacaofinalnodeapi_user',
-            password: 'aBGbW1OEpQMirDePdwyXkrAUokh51MCw',
-            host: 'dpg-dblqkljm8hqs739u6qtg-a.oregon-postgres.render.com',
+            database: 'exemplo_rna8',
+            username: 'exemplo_rna8_user',
+            password: 'tMiME0ydPUo66XBDkxa5XliRfyQeWsI1',
+            host: 'dpg-dbh6vdcipgvc73d27e30-a.oregon-postgres.render.com',
             dialectOptions: {
                 ssl: {
                     require: true,
